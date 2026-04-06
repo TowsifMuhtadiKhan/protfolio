@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:towsifmuhtadikhan.netlify.app)",
+      "Bash(npx tsc:*)"
+    ]
+  }
+}
