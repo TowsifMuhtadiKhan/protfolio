@@ -43,7 +43,7 @@ products that solve real problems. When I'm not coding, I'm learning something n
 };
 
 export const socials: Socials = {
-  github: 'https://github.com/yourusername',
+  github: 'https://github.com/TowsifMuhtadiKhan',
   linkedin: 'https://linkedin.com/in/yourusername',
   twitter: 'https://twitter.com/yourusername',
   email: 'mailto:your.email@example.com',
@@ -75,50 +75,40 @@ export const skills: Skill[] = [
 
 export const projects: Project[] = [
   {
-    title: 'Project One',
+    title: 'Furniture Fusion (Landing Page)',
     description:
-      'A short, punchy sentence about what this project does and why it matters.',
-    tags: ['React', 'Node.js', 'MongoDB'],
+      'A dynamic and visually appealing web application built with React JS and Tailwind CSS. Showcases the fusion of innovative design and functionality, offering users an immersive experience in the furniture world.',
+    tags: ['React.js', 'Tailwind CSS'],
     image: '',
-    github: 'https://github.com/yourusername/project-one',
-    live: 'https://project-one.example.com',
-    featured: true,
-  },
-  {
-    title: 'Project Two',
-    description:
-      'Another project showcasing a different set of skills and problem-solving.',
-    tags: ['Next.js', 'TypeScript', 'PostgreSQL'],
-    image: '',
-    github: 'https://github.com/yourusername/project-two',
-    live: 'https://project-two.example.com',
-    featured: true,
-  },
-  {
-    title: 'Project Three',
-    description:
-      'A smaller side project or experiment that taught you something new.',
-    tags: ['Python', 'FastAPI', 'Docker'],
-    image: '',
-    github: 'https://github.com/yourusername/project-three',
+    github: 'https://github.com/TowsifMuhtadiKhan',
     live: '',
-    featured: false,
+    featured: true,
+  },
+  {
+    title: 'Event Details Website',
+    description:
+      'An interactive platform for visualizing event data through dynamic charts and graphs. Users can analyze key metrics, track event trends, and gain valuable insights — an essential tool for event organizers and attendees alike.',
+    tags: ['HTML', 'CSS', 'Chart.js'],
+    image: '',
+    github: 'https://github.com/TowsifMuhtadiKhan',
+    live: '',
+    featured: true,
   },
 ];
 
 export const experience: ExperienceItem[] = [
   {
-    role: 'Freelance Developer',
-    company: 'Self-employed',
-    period: '2023 — Present',
+    role: 'Frontend Engineer',
+    company: 'Sense & Respond Software LLC',
+    period: 'November 2023 — Present',
     description:
-      'Building custom web applications for clients — from landing pages to full-stack products.',
+      'Specializing in frontend development, ensuring seamless functionality and precise fulfillment of project requirements. Stack: React.js, Redux Toolkit, Material UI, TypeScript, API Integration, AWS, Responsive Design.',
   },
   {
-    role: 'Computer Science Student',
-    company: 'Your University',
-    period: '2022 — Present',
+    role: 'Junior Web Developer',
+    company: 'CPSD Technologies Ltd.',
+    period: 'February 2023 — October 2023',
     description:
-      'Studying core CS concepts: data structures, algorithms, systems, and software engineering.',
+      'Focused on crafting robust and user-friendly digital solutions while developing core web development skills. Stack: HTML, CSS, Tailwind CSS, JavaScript, API Integration.',
   },
 ];
