@@ -1,4 +1,4 @@
-import type { IconType } from 'react-icons';
+import type { IconType } from "react-icons";
 
 export interface Profile {
   name: string;
@@ -26,6 +26,7 @@ export interface Skill {
 }
 
 export interface Project {
+  logo: string;
   title: string;
   description: string;
   tags: string[];

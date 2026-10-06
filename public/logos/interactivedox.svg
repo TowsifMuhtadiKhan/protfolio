@@ -1,0 +1,29 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="InteractiveDox">
+  <!--
+    Favicon / apple-touch icon (injected by config/applyBrandHead.ts). The
+    InteractiveDox line-art mark (document + cursor + spark + play) in white on
+    the brand-blue tile, so it stays legible at 16px and on iOS home screens.
+    Mark scaled from its 64-unit source: translate(55 64) scale(6).
+  -->
+  <defs>
+    <linearGradient id="doxFavTile" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4F7CF7"/>
+      <stop offset="1" stop-color="#1D4FD7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Brand tile -->
+  <rect width="512" height="512" rx="116" fill="url(#doxFavTile)"/>
+
+  <!-- Line-art mark, white on the tile -->
+  <g transform="translate(55 64) scale(6)" fill="none" stroke="#FFFFFF">
+    <path d="M19 8 H39 L52 21 V52 a4 4 0 0 1 -4 4 H19 a4 4 0 0 1 -4 -4 V12 a4 4 0 0 1 4 -4 Z" stroke-width="3.4" stroke-linejoin="round"/>
+    <path d="M39 8 V17 a4 4 0 0 0 4 4 H52" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+    <rect x="22" y="18.5" width="15" height="3.2" rx="1.6" fill="#BFD4FF" stroke="none"/>
+    <rect x="22" y="25.5" width="9" height="3.2" rx="1.6" fill="#BFD4FF" stroke="none"/>
+    <circle cx="22.5" cy="46" r="3.2" stroke-width="3"/>
+    <path d="M22.5 42.8 V38 a7 7 0 0 1 7 -7" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="29.5" cy="31" r="2.4" fill="#FFFFFF" stroke="none"/>
+    <path d="M34.5 33 L46 40 L34.5 47 Z" fill="#FFFFFF" stroke="none"/>
+  </g>
+</svg>

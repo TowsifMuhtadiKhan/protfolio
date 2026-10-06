@@ -1,61 +1,29 @@
-# Towsif's Portfolio
+﻿# Towsif Muhtadi Khan — Portfolio
 
-A modern, animated, developer-themed portfolio built with **React + TypeScript + Vite + Tailwind CSS + Framer Motion**.
+Personal portfolio built with React, TypeScript, Vite, and Tailwind CSS.
 
 ## Features
 
-- Light / dark theme (dark by default, persisted to localStorage)
-- Fully responsive with mobile nav
-- Animated hero with typing effect + terminal window
-- Code-snippet-themed About, Contact, and Project sections
-- Git-log-style experience timeline
-- Smooth scroll, grid background, glow hover effects
+- Responsive layout with persistent light and dark themes
+- Four personal projects in a five-second looping showcase
+- Pause/play, previous/next, keyboard tabs, and reduced-motion support
+- Separate SNR product showcase with team attribution
+- Work history, education, GitHub, LinkedIn, and email contact
+- Typography-led introduction with a charcoal and cobalt palette
 
-## Getting Started
+## Development
 
-```bash
+```sh
 npm install
 npm run dev
 ```
 
-Build for production:
-
-```bash
+```sh
 npm run build
 npm run preview
 ```
 
-## Customizing content
+Content is in `src/data.ts`, layout in `src/App.tsx`, and styling in `src/index.css`.
 
-All content lives in **`src/data.ts`**. Edit that one file to update:
+Canvas Classroom's supplied repository returned 404 during review. Its link is retained, with no unverified technical claims or fabricated preview. AllThingsAPI links to the supplied development environment. Project artwork uses typographic covers rather than fabricated application screenshots.
 
-- `profile` — name, role, bio, stats
-- `socials` — GitHub, LinkedIn, email URLs
-- `skills` — tech stack (icons from `react-icons/si`)
-- `projects` — list of projects
-- `experience` — work / education timeline
-
-Colors and fonts can be tweaked in `tailwind.config.ts` and `src/index.css`.
-
-## Project structure
-
-```
-src/
-├── components/
-│   ├── Navbar.tsx
-│   ├── Hero.tsx
-│   ├── About.tsx
-│   ├── Skills.tsx
-│   ├── Projects.tsx
-│   ├── Experience.tsx
-│   ├── Contact.tsx
-│   ├── Footer.tsx
-│   └── SectionHeading.tsx
-├── hooks/
-│   └── useTheme.ts
-├── data.ts
-├── types.ts
-├── App.tsx
-├── main.tsx
-└── index.css
-```
